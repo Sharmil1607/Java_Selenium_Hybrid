@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Report theme: standard or dark -->
+        <theme>dark</theme>
+
+        <!-- Document title of the report -->
+        <documentTitle>OrangeHRM</documentTitle>
+
+        <!-- Report name shown at the top -->
+        <reportName>OrangeHRM Automation Testing</reportName>
+
+        <!-- Encoding -->
+        <encoding>utf-8</encoding>
+
+        <!-- Timestamp format -->
+        <timeStampFormat>dd-MM-yyyy HH:mm:ss</timeStampFormat>
+
+        <!-- Custom CSS -->
+        <css>
+            /* Example: Change passed test color */
+            .test.pass .test-name {
+                color: green;
+                font-weight: bold;
+            }
+        </css>
+
+        <!-- Custom JavaScript -->
+        <scripts>
+            console.log('Extent Report Loaded');
+        </scripts>
+    </configuration>
+</extentreports>

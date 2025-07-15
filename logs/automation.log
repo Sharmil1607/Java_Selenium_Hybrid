@@ -1,0 +1,19 @@
+2025-07-15 15:51:24 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellrefe4e0type
+2025-07-15 15:51:24 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+2025-07-15 15:51:24 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
+2025-07-15 15:51:28 [main] INFO  utilities.Browsers - Chrome Browser Started Successfully
+2025-07-15 15:51:50 [main] INFO  utilities.Browsers - URL:- https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-07-15 15:51:53 [main] INFO  utilities.Browsers - User enter UserName as Admin
+2025-07-15 15:51:54 [main] INFO  utilities.Browsers - User enter Password as admin123
+2025-07-15 15:51:55 [main] INFO  utilities.Browsers - User click LogIn Button
+2025-07-15 15:52:13 [main] INFO  utilities.Browsers - User click LogIn Button
+2025-07-15 15:52:23 [main] INFO  utilities.Browsers - User click LogIn Button
+2025-07-15 15:52:30 [main] INFO  utilities.Browsers - Browser Quit Scuccessfully
+2025-07-15 15:52:36 [main] INFO  utilities.Browsers - Firefox Browser Started Successfully
+2025-07-15 15:52:45 [main] INFO  utilities.Browsers - URL:- https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-07-15 15:52:47 [main] INFO  utilities.Browsers - User enter UserName as Admin
+2025-07-15 15:52:48 [main] INFO  utilities.Browsers - User enter Password as admin123
+2025-07-15 15:52:53 [main] INFO  utilities.Browsers - User click LogIn Button
+2025-07-15 15:53:04 [main] INFO  utilities.Browsers - User click LogIn Button
+2025-07-15 15:53:10 [main] INFO  utilities.Browsers - User click LogIn Button
+2025-07-15 15:53:16 [main] INFO  utilities.Browsers - Browser Quit Scuccessfully

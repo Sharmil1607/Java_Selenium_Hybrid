@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-15T15:40:07 IST" name="Suite" finished-at="2025-07-15T15:41:14 IST" duration-ms="67278">
+    <groups>
+    </groups>
+    <test started-at="2025-07-15T15:40:07 IST" name="Tests" finished-at="2025-07-15T15:41:14 IST" duration-ms="67278">
+      <class name="firstproject.Login_TestCase_1">
+        <test-method is-config="true" signature="reports()[pri:0, instance:firstproject.Login_TestCase_1@8a589a2]" started-at="2025-07-15T15:40:08 IST" name="reports" finished-at="2025-07-15T15:40:09 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method signature="scenario1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:firstproject.Login_TestCase_1@8a589a2]" started-at="2025-07-15T15:40:09 IST" name="scenario1" data-provider="dp1" finished-at="2025-07-15T15:40:39 IST" duration-ms="30324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1 -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:firstproject.Login_TestCase_1@8a589a2]" started-at="2025-07-15T15:40:39 IST" name="browserquit" finished-at="2025-07-15T15:40:43 IST" duration-ms="4055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+        <test-method is-config="true" signature="reports()[pri:0, instance:firstproject.Login_TestCase_1@8a589a2]" started-at="2025-07-15T15:40:43 IST" name="reports" finished-at="2025-07-15T15:40:43 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method signature="scenario2()[pri:0, instance:firstproject.Login_TestCase_1@8a589a2]" started-at="2025-07-15T15:40:43 IST" name="scenario2" finished-at="2025-07-15T15:41:12 IST" duration-ms="28270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario2 -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:firstproject.Login_TestCase_1@8a589a2]" started-at="2025-07-15T15:41:12 IST" name="browserquit" finished-at="2025-07-15T15:41:14 IST" duration-ms="2427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- firstproject.Login_TestCase_1 -->
+    </test> <!-- Tests -->
+  </suite> <!-- Suite -->
+</testng-results>
