@@ -2,12 +2,10 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
-
 import com.relevantcodes.extentreports.LogStatus;
+import utilities.*;
 
-import utilities.Browsers;
-
-public class LogOutPage extends Browsers {
+public class LogOutPage extends GridBrowsers {
 
 	public static final String LogOut_Icon = "//*[@class='oxd-userdropdown-name']";
 	public static final String LogOut_Button = "//*[text()='Logout']";

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="firstproject.Login_TestCase_1">
+      <class name="gridproject.Grid_Login_TestCase_001">
         <methods>
-          <include name="scenario2"/>
-          <include name="reports"/>
           <include name="browserquit"/>
+          <include name="scenario"/>
+          <include name="reports"/>
         </methods>
-      </class> <!-- firstproject.Login_TestCase_1 -->
+      </class> <!-- gridproject.Grid_Login_TestCase_001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,19 +1,35 @@
-2025-07-15 15:51:24 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellrefe4e0type
-2025-07-15 15:51:24 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
-2025-07-15 15:51:24 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
-2025-07-15 15:51:28 [main] INFO  utilities.Browsers - Chrome Browser Started Successfully
-2025-07-15 15:51:50 [main] INFO  utilities.Browsers - URL:- https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-07-15 15:51:53 [main] INFO  utilities.Browsers - User enter UserName as Admin
-2025-07-15 15:51:54 [main] INFO  utilities.Browsers - User enter Password as admin123
-2025-07-15 15:51:55 [main] INFO  utilities.Browsers - User click LogIn Button
-2025-07-15 15:52:13 [main] INFO  utilities.Browsers - User click LogIn Button
-2025-07-15 15:52:23 [main] INFO  utilities.Browsers - User click LogIn Button
-2025-07-15 15:52:30 [main] INFO  utilities.Browsers - Browser Quit Scuccessfully
-2025-07-15 15:52:36 [main] INFO  utilities.Browsers - Firefox Browser Started Successfully
-2025-07-15 15:52:45 [main] INFO  utilities.Browsers - URL:- https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-07-15 15:52:47 [main] INFO  utilities.Browsers - User enter UserName as Admin
-2025-07-15 15:52:48 [main] INFO  utilities.Browsers - User enter Password as admin123
-2025-07-15 15:52:53 [main] INFO  utilities.Browsers - User click LogIn Button
-2025-07-15 15:53:04 [main] INFO  utilities.Browsers - User click LogIn Button
-2025-07-15 15:53:10 [main] INFO  utilities.Browsers - User click LogIn Button
-2025-07-15 15:53:16 [main] INFO  utilities.Browsers - Browser Quit Scuccessfully
+2025-07-16 12:44:41 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-07-16 12:44:41 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE Grid_Login_TestCase_001.browserquit()[pri:0, instance:null] -127974562
+2025-07-16 12:44:41 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-07-16 12:44:41 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-07-16 12:44:41 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-07-16 12:44:41 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-07-16 12:44:41 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE Grid_Login_TestCase_001.scenario(java.lang.String,java.lang.String)[pri:0, instance:gridproject.Grid_Login_TestCase_001@544630b7] 1678714272
+2025-07-16 12:44:41 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-07-16 12:44:41 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-07-16 12:44:41 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-07-16 12:44:41 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-07-16 12:44:41 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\TESTING\AutomationProjects\Hybrid\Grid_Login_TestCase_001.xml
+
+2025-07-16 12:44:53 [TestNG-tests-1] INFO  utilities.GridBrowsers - Chrome Browser Started Successfully
+2025-07-16 12:45:05 [TestNG-tests-1] INFO  utilities.GridBrowsers - URL:- https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-07-16 12:45:07 [TestNG-tests-1] INFO  utilities.GridBrowsers - User enter UserName as Admin
+2025-07-16 12:45:08 [TestNG-tests-1] INFO  utilities.GridBrowsers - User enter Password as admin123
+2025-07-16 12:45:12 [TestNG-tests-1] INFO  utilities.GridBrowsers - User click LogIn Button
+2025-07-16 12:45:17 [TestNG-tests-1] INFO  utilities.GridBrowsers - User click LogIn Button
+2025-07-16 12:45:29 [TestNG-tests-1] INFO  utilities.GridBrowsers - Login Failed
+2025-07-16 12:45:35 [TestNG-tests-1] INFO  utilities.GridBrowsers - Browser Quit Scuccessfully
+2025-07-16 12:45:38 [TestNG-tests-1] INFO  utilities.GridBrowsers - Chrome Browser Started Successfully
+2025-07-16 12:45:48 [TestNG-tests-1] INFO  utilities.GridBrowsers - URL:- https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-07-16 12:45:50 [TestNG-tests-1] INFO  utilities.GridBrowsers - User enter UserName as Admin
+2025-07-16 12:45:51 [TestNG-tests-1] INFO  utilities.GridBrowsers - User enter Password as admin123
+2025-07-16 12:45:53 [TestNG-tests-1] INFO  utilities.GridBrowsers - User click LogIn Button
+2025-07-16 12:46:00 [TestNG-tests-1] INFO  utilities.GridBrowsers - User click LogIn Button
+2025-07-16 12:46:12 [TestNG-tests-1] INFO  utilities.GridBrowsers - Login Failed
+2025-07-16 12:46:16 [TestNG-tests-1] INFO  utilities.GridBrowsers - Browser Quit Scuccessfully
+2025-07-16 12:46:16 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE Grid_Login_TestCase_001.scenario(java.lang.String,java.lang.String)[pri:0, instance:gridproject.Grid_Login_TestCase_001@544630b7] 1678714272
+2025-07-16 12:46:16 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-07-16 12:46:16 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-07-16 12:46:16 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-07-16 12:46:16 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES

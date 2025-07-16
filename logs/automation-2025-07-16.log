@@ -1,0 +1,47 @@
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE Grid_Login_TestCase_001.reports()[pri:0, instance:null] 1757113366
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE Grid_Login_TestCase_001.browserquit()[pri:0, instance:null] -127974562
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE Grid_Login_TestCase_001.scenario(java.lang.String,java.lang.String)[pri:0, instance:gridproject.Grid_Login_TestCase_001@544630b7] 1678714272
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE Grid_Login_TestCase_001.reports()[pri:0, instance:null] 1757113366
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE Grid_Login_TestCase_001.browserquit()[pri:0, instance:null] -127974562
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE Grid_Login_TestCase_001.scenario(java.lang.String,java.lang.String)[pri:0, instance:gridproject.Grid_Login_TestCase_001@d1f74b8] 484993441
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-07-16 12:42:30 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-07-16 12:42:30 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\TESTING\AutomationProjects\Hybrid\Parallel_Grid_Login_TestCase_001.xml
+
+2025-07-16 12:42:35 [TestNG-tests-1] INFO  utilities.GridBrowsers - Chrome Browser Started Successfully
+2025-07-16 12:42:41 [TestNG-tests-2] INFO  utilities.GridBrowsers - Firefox Browser Started Successfully
+2025-07-16 12:42:46 [TestNG-tests-1] INFO  utilities.GridBrowsers - URL:- https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-07-16 12:42:48 [TestNG-tests-1] INFO  utilities.GridBrowsers - User enter UserName as Admin
+2025-07-16 12:42:48 [TestNG-tests-1] INFO  utilities.GridBrowsers - User enter Password as admin123
+2025-07-16 12:42:50 [TestNG-tests-1] INFO  utilities.GridBrowsers - User click LogIn Button
+2025-07-16 12:42:50 [TestNG-tests-2] INFO  utilities.GridBrowsers - URL:- https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2025-07-16 12:43:02 [TestNG-tests-1] INFO  utilities.GridBrowsers - User click LogIn Button
+2025-07-16 12:43:02 [TestNG-tests-2] INFO  utilities.GridBrowsers - Login Failed
+2025-07-16 12:44:39 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\TESTING\AutomationProjects\Hybrid\Grid_Login_TestCase_001.xml"
+2025-07-16 12:44:41 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE Grid_Login_TestCase_001.reports()[pri:0, instance:null] 1757113366
+2025-07-16 12:44:41 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-07-16 12:44:41 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-07-16 12:44:41 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES

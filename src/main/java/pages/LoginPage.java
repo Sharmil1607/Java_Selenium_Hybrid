@@ -6,7 +6,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import utilities.*;
 
 
-public class LoginPage extends Browsers {
+public class LoginPage extends GridBrowsers {
 
 	public static final String UserName = "//*[@name='username']";
 	public static final String Password = "//*[@name='password']";
@@ -54,18 +54,19 @@ public class LoginPage extends Browsers {
 	
 	public static void LogIn1() throws Exception{
 		try{
-			driver.findElement(By.xpath(UserName)).sendKeys(p.getProperty("UserName"));
+			driver.findElement(By.xpath(UserName)).sendKeys(p.getProperty("Username1"));
 			Thread.sleep(500);
-			Test.log(LogStatus.PASS, "User enter UserName as " + p.getProperty("UserName"));
-			test.pass("User enter UserName as " + p.getProperty("UserName"));
-			logger.info("User enter UserName as " + p.getProperty("UserName"));
+			Test.log(LogStatus.PASS, "User enter UserName as " + p.getProperty("Username1"));
+			test.pass("User enter UserName as " + p.getProperty("Username1"));
+			logger.info("User enter UserName as " + p.getProperty("Username1"));
 			
-			driver.findElement(By.xpath(Password)).sendKeys(p.getProperty("Password"));
+			driver.findElement(By.xpath(Password)).sendKeys(p.getProperty("Password1"));
 			Thread.sleep(500);
-			Test.log(LogStatus.PASS, "User enter Password as " + p.getProperty("Password"));
-			test.pass("User enter Password as " + p.getProperty("Password"));
-			logger.info("User enter Password as " + p.getProperty("Password"));
+			Test.log(LogStatus.PASS, "User enter Password as " + p.getProperty("Password1"));
+			test.pass("User enter Password as " + p.getProperty("Password1"));
+			logger.info("User enter Password as " + p.getProperty("Password1"));
 			ReportScreenshot();
+			AventStackReportScreenshot();
 			
 			driver.findElement(By.xpath(LogIn_Button)).click();
 			Test.log(LogStatus.PASS, "User click LogIn Button");

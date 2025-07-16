@@ -11,7 +11,6 @@ import org.apache.logging.log4j.*;
 public class Browsers extends AventStackReport {
 	
 	public static final String Url = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
-	public static final String Url1 = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
 	public static Logger logger;
 
 	public static void LaunchBrowser(String Browser) throws Exception {

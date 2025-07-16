@@ -92,7 +92,7 @@ public class ReleventCodesReports {
 			FileUtils.copyFile(src, new File("D:\\TESTING\\AutomationProjects\\Hybrid\\Screenshots\\" + folder + "\\" + FileName));
 		} 
 
-		catch (IOException e) {
+		catch (Exception e) {
 			System.out.println("Snapshot Failed");
 		}
 	}

@@ -9,14 +9,27 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Tests1</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">66,747</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Tests2</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">45,602</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">112,349</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">TestCase_001</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num attn">1</td><td class="num">94,139</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Tests1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">firstproject.Login_TestCase_1</td><td><a href="#m0">scenario</a></td><td rowspan="1">1752574885516</td><td rowspan="1">62045</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Tests2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">firstproject.Login_TestCase_2</td><td><a href="#m1">scenario</a></td><td rowspan="1">1752574950912</td><td rowspan="1">43193</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestCase_001 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">gridproject.Grid_Login_TestCase_001</td><td><a href="#m0">scenario</a></td><td rowspan="1">1752650135417</td><td rowspan="1">37867</td></tr><tr><th colspan="4">TestCase_001 &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">gridproject.Grid_Login_TestCase_001</td><td><a href="#m1">scenario</a></td><td rowspan="1">1752650082940</td><td rowspan="1">46882</td></tr></tbody>
 </table>
-<h2>Tests1</h2><h3 id="m0">firstproject.Login_TestCase_1#scenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Chrome</td><td>Admin</td><td>admin123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Tests2</h2><h3 id="m1">firstproject.Login_TestCase_2#scenario</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>TestCase_001</h2><h3 id="m0">gridproject.Grid_Login_TestCase_001#scenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>linux</td><td>Chrome</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: null
+	at pages.LogOutPage.LogOut(LogOutPage.java:39)
+	at gridproject.Grid_Login_TestCase_001.scenario(Grid_Login_TestCase_001.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">gridproject.Grid_Login_TestCase_001#scenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>linux</td><td>Chrome</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: null
+	at pages.LogOutPage.LogOut(LogOutPage.java:39)
+	at gridproject.Grid_Login_TestCase_001.scenario(Grid_Login_TestCase_001.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
